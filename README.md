@@ -16,11 +16,15 @@ For running the source-code, the files need to be executed in the following orde
 
 1) run *B.py* in one terminal tab
 
-2) execute *A.py* in another terminal tab
+2) run *A.py* in another terminal tab
 
-3) execute *send_data.py* in another terminal tab.
+3) run *send_data.py* in another terminal tab.
 
 ## Notes:
 The following assumptions/design decisions were taken to complete the task. 
+
 1) The message which is being sent to *Socket A* and forwarded to *Socket B* is currently hardcoded in *send_data.py*. 
-2) The program will not work and will throw an exception error if the port numbers are currently being used by another application. Port numbers of *Socket A* and *Socket B* are also currently *hardcoded*.
+
+2) The program will not work and will throw an exception error if the port numbers are currently being used by another application.
+
+Port numbers of *Socket A* and *Socket B* are also currently *hardcoded*.
